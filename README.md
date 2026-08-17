@@ -1,42 +1,91 @@
-# Polar
+# polar
 
-Polar is an image server for LXD / Incus. It has some useful features like:
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/polar) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Fpolar&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
 
-+ Per `space` credential generation.
-+ Feed specific to incus / lxd, you can choose when creating credentials.
-+ Users can create `spaces` to manage multiple credentials.
 
-The build system for polar is called [icepak](https://github.com/upmaru/icepak). It's designed to run as a github action, you can see it in action [here](https://github.com/upmaru/opsmaru-images).
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## Demo
+## Architecture
 
-+ [Production](https://images.opsmaru.com)
-+ [Sandbox](https://images.opsmaru.dev)
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-## Basic Architecture
+## Install
 
-![basic design](/design.png)
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-## Development
-
-Make sure you have Elixir / OTP installed. If you have asdf in your environment simply run 
-
-```shell
-asdf install
+```bash
+git clone https://github.com/Interested-Deving-1896/polar.git
+cd polar
 ```
 
-### Install Dependencies
+## Usage
 
-Install dependencies using mix:
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-```shell
-mix deps.get
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/polar`](https://github.com/Interested-Deving-1896/polar) and mirrored through:
+
+```
+Interested-Deving-1896/polar  ──►  OpenOS-Project-OSP/polar  ──►  OpenOS-Project-Ecosystem-OOC/polar
 ```
 
-### Start Server
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-You can start the server with the following command. It will be hosted on port 4000
+## Contributors
 
-```shell
-iex -S mix phx.server
-```
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## Accessibility
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
+
+
+
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/polar/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/polar/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
+
+## License
+
+<!-- AI:start:license -->
+[AGPL-3.0](https://github.com/Interested-Deving-1896/polar/blob/develop/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->

@@ -57,7 +57,7 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 | Contributor | Commits |
 |---|---|
 | [@zacksiri](https://github.com/zacksiri) | 168 |
-| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 2 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 3 |
 | [@opsmaru[bot]](https://github.com/apps/opsmaru) | 1 |
 <!-- AI:end:contributors -->
 
